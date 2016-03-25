@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091470C1CA5129D00D14B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091470B1CA5129D00D14B1F /* main.m */; };
+		0091470F1CA5129D00D14B1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091470E1CA5129D00D14B1F /* AppDelegate.m */; };
+		009147121CA5129D00D14B1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009147111CA5129D00D14B1F /* ViewController.m */; };
+		009147151CA5129D00D14B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009147131CA5129D00D14B1F /* Main.storyboard */; };
+		009147171CA5129D00D14B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009147161CA5129D00D14B1F /* Assets.xcassets */; };
+		0091471A1CA5129D00D14B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009147181CA5129D00D14B1F /* LaunchScreen.storyboard */; };
+		009147251CA5129D00D14B1F /* BJTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009147241CA5129D00D14B1F /* BJTouchIDTests.m */; };
+		009147301CA5129D00D14B1F /* BJTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091472F1CA5129D00D14B1F /* BJTouchIDUITests.m */; };
+		009147401CA5130600D14B1F /* BJTouchIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091473F1CA5130600D14B1F /* BJTouchIDTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009147211CA5129D00D14B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009146FF1CA5129D00D14B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009147061CA5129D00D14B1F;
+			remoteInfo = BJTouchID;
+		};
+		0091472C1CA5129D00D14B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009146FF1CA5129D00D14B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009147061CA5129D00D14B1F;
+			remoteInfo = BJTouchID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009147071CA5129D00D14B1F /* BJTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0091470B1CA5129D00D14B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0091470D1CA5129D00D14B1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0091470E1CA5129D00D14B1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		009147101CA5129D00D14B1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		009147111CA5129D00D14B1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		009147141CA5129D00D14B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009147161CA5129D00D14B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009147191CA5129D00D14B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0091471B1CA5129D00D14B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009147201CA5129D00D14B1F /* BJTouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJTouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009147241CA5129D00D14B1F /* BJTouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJTouchIDTests.m; sourceTree = "<group>"; };
+		009147261CA5129D00D14B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0091472B1CA5129D00D14B1F /* BJTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0091472F1CA5129D00D14B1F /* BJTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJTouchIDUITests.m; sourceTree = "<group>"; };
+		009147311CA5129D00D14B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0091473E1CA5130600D14B1F /* BJTouchIDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJTouchIDTool.h; sourceTree = "<group>"; };
+		0091473F1CA5130600D14B1F /* BJTouchIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJTouchIDTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009147041CA5129D00D14B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0091471D1CA5129D00D14B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009147281CA5129D00D14B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009146FE1CA5129D00D14B1F = {
+			isa = PBXGroup;
+			children = (
+				009147091CA5129D00D14B1F /* BJTouchID */,
+				009147231CA5129D00D14B1F /* BJTouchIDTests */,
+				0091472E1CA5129D00D14B1F /* BJTouchIDUITests */,
+				009147081CA5129D00D14B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009147081CA5129D00D14B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009147071CA5129D00D14B1F /* BJTouchID.app */,
+				009147201CA5129D00D14B1F /* BJTouchIDTests.xctest */,
+				0091472B1CA5129D00D14B1F /* BJTouchIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009147091CA5129D00D14B1F /* BJTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				0091473D1CA512D200D14B1F /* BJTouchID */,
+				0091470D1CA5129D00D14B1F /* AppDelegate.h */,
+				0091470E1CA5129D00D14B1F /* AppDelegate.m */,
+				009147101CA5129D00D14B1F /* ViewController.h */,
+				009147111CA5129D00D14B1F /* ViewController.m */,
+				009147131CA5129D00D14B1F /* Main.storyboard */,
+				009147161CA5129D00D14B1F /* Assets.xcassets */,
+				009147181CA5129D00D14B1F /* LaunchScreen.storyboard */,
+				0091471B1CA5129D00D14B1F /* Info.plist */,
+				0091470A1CA5129D00D14B1F /* Supporting Files */,
+			);
+			path = BJTouchID;
+			sourceTree = "<group>";
+		};
+		0091470A1CA5129D00D14B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0091470B1CA5129D00D14B1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009147231CA5129D00D14B1F /* BJTouchIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				009147241CA5129D00D14B1F /* BJTouchIDTests.m */,
+				009147261CA5129D00D14B1F /* Info.plist */,
+			);
+			path = BJTouchIDTests;
+			sourceTree = "<group>";
+		};
+		0091472E1CA5129D00D14B1F /* BJTouchIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0091472F1CA5129D00D14B1F /* BJTouchIDUITests.m */,
+				009147311CA5129D00D14B1F /* Info.plist */,
+			);
+			path = BJTouchIDUITests;
+			sourceTree = "<group>";
+		};
+		0091473D1CA512D200D14B1F /* BJTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				0091473E1CA5130600D14B1F /* BJTouchIDTool.h */,
+				0091473F1CA5130600D14B1F /* BJTouchIDTool.m */,
+			);
+			path = BJTouchID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009147061CA5129D00D14B1F /* BJTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009147341CA5129D00D14B1F /* Build configuration list for PBXNativeTarget "BJTouchID" */;
+			buildPhases = (
+				009147031CA5129D00D14B1F /* Sources */,
+				009147041CA5129D00D14B1F /* Frameworks */,
+				009147051CA5129D00D14B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BJTouchID;
+			productName = BJTouchID;
+			productReference = 009147071CA5129D00D14B1F /* BJTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0091471F1CA5129D00D14B1F /* BJTouchIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009147371CA5129D00D14B1F /* Build configuration list for PBXNativeTarget "BJTouchIDTests" */;
+			buildPhases = (
+				0091471C1CA5129D00D14B1F /* Sources */,
+				0091471D1CA5129D00D14B1F /* Frameworks */,
+				0091471E1CA5129D00D14B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009147221CA5129D00D14B1F /* PBXTargetDependency */,
+			);
+			name = BJTouchIDTests;
+			productName = BJTouchIDTests;
+			productReference = 009147201CA5129D00D14B1F /* BJTouchIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0091472A1CA5129D00D14B1F /* BJTouchIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0091473A1CA5129D00D14B1F /* Build configuration list for PBXNativeTarget "BJTouchIDUITests" */;
+			buildPhases = (
+				009147271CA5129D00D14B1F /* Sources */,
+				009147281CA5129D00D14B1F /* Frameworks */,
+				009147291CA5129D00D14B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0091472D1CA5129D00D14B1F /* PBXTargetDependency */,
+			);
+			name = BJTouchIDUITests;
+			productName = BJTouchIDUITests;
+			productReference = 0091472B1CA5129D00D14B1F /* BJTouchIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009146FF1CA5129D00D14B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KuangBing;
+				TargetAttributes = {
+					009147061CA5129D00D14B1F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0091471F1CA5129D00D14B1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 009147061CA5129D00D14B1F;
+					};
+					0091472A1CA5129D00D14B1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 009147061CA5129D00D14B1F;
+					};
+				};
+			};
+			buildConfigurationList = 009147021CA5129D00D14B1F /* Build configuration list for PBXProject "BJTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009146FE1CA5129D00D14B1F;
+			productRefGroup = 009147081CA5129D00D14B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009147061CA5129D00D14B1F /* BJTouchID */,
+				0091471F1CA5129D00D14B1F /* BJTouchIDTests */,
+				0091472A1CA5129D00D14B1F /* BJTouchIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009147051CA5129D00D14B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0091471A1CA5129D00D14B1F /* LaunchScreen.storyboard in Resources */,
+				009147171CA5129D00D14B1F /* Assets.xcassets in Resources */,
+				009147151CA5129D00D14B1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0091471E1CA5129D00D14B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009147291CA5129D00D14B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009147031CA5129D00D14B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009147401CA5130600D14B1F /* BJTouchIDTool.m in Sources */,
+				009147121CA5129D00D14B1F /* ViewController.m in Sources */,
+				0091470F1CA5129D00D14B1F /* AppDelegate.m in Sources */,
+				0091470C1CA5129D00D14B1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0091471C1CA5129D00D14B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009147251CA5129D00D14B1F /* BJTouchIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009147271CA5129D00D14B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009147301CA5129D00D14B1F /* BJTouchIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009147221CA5129D00D14B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009147061CA5129D00D14B1F /* BJTouchID */;
+			targetProxy = 009147211CA5129D00D14B1F /* PBXContainerItemProxy */;
+		};
+		0091472D1CA5129D00D14B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009147061CA5129D00D14B1F /* BJTouchID */;
+			targetProxy = 0091472C1CA5129D00D14B1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009147131CA5129D00D14B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009147141CA5129D00D14B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009147181CA5129D00D14B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009147191CA5129D00D14B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009147321CA5129D00D14B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		009147331CA5129D00D14B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009147351CA5129D00D14B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BJTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		009147361CA5129D00D14B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BJTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		009147381CA5129D00D14B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BJTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJTouchID.app/BJTouchID";
+			};
+			name = Debug;
+		};
+		009147391CA5129D00D14B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BJTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJTouchID.app/BJTouchID";
+			};
+			name = Release;
+		};
+		0091473B1CA5129D00D14B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BJTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJTouchID;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0091473C1CA5129D00D14B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BJTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJTouchID;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009147021CA5129D00D14B1F /* Build configuration list for PBXProject "BJTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009147321CA5129D00D14B1F /* Debug */,
+				009147331CA5129D00D14B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009147341CA5129D00D14B1F /* Build configuration list for PBXNativeTarget "BJTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009147351CA5129D00D14B1F /* Debug */,
+				009147361CA5129D00D14B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		009147371CA5129D00D14B1F /* Build configuration list for PBXNativeTarget "BJTouchIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009147381CA5129D00D14B1F /* Debug */,
+				009147391CA5129D00D14B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0091473A1CA5129D00D14B1F /* Build configuration list for PBXNativeTarget "BJTouchIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0091473B1CA5129D00D14B1F /* Debug */,
+				0091473C1CA5129D00D14B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009146FF1CA5129D00D14B1F /* Project object */;
+}
